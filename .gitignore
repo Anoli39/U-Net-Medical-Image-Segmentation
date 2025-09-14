@@ -1,0 +1,28 @@
+# 忽略所有 .pyc 编译文件
+*.pyc
+
+# 忽略所有 __pycache__ 缓存文件夹
+__pycache__/
+
+# 忽略IDE配置文件夹
+.idea/
+.vscode/
+
+# 忽略大型模型和数据文件
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+weights/
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
+
+# 忽略虚拟环境文件夹
+venv/
+env/
+nlp_env/
+medseg/
+
+U-Net-Medical-Image-Segmentation/
